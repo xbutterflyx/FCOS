@@ -46,7 +46,7 @@ cd FCOS
 # symbolic links, so that you can modify
 # the files if you want and won't need to
 # re-build it
-python setup.py build develop
+python setup.py build develop --no-deps
 
 
 unset INSTALL_DIR
